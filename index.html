@@ -19,7 +19,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark py-3 fixed-top">
       <div class="container">
         <a href="#" class="navbar-brand">Frontend Bootcamp</a>
 
@@ -61,7 +61,7 @@
           </div>
           <img
             class="w-50 img-fluid d-none d-sm-block"
-            src="img/maker_launch.svg"
+            src="img/stars.svg"
             alt="" />
         </div>
       </div>
@@ -83,7 +83,7 @@
     <!-- Boxes -->
     <section class="p-5">
       <div class="container">
-        <div class="row text-center">
+        <div class="row text-center g-4">
           <div class="col-md">
             <div class="card bg-dark text-light">
               <div class="card-body text-center">
@@ -95,39 +95,205 @@
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Adipisci, vitae?
                 </p>
-                <a href="#" class="btn btn-primary" role="button"> Read More </a>
+                <a href="#" class="btn btn-primary" role="button">
+                  Read More
+                </a>
               </div>
             </div>
           </div>
           <div class="col-md">
             <div class="card bg-secondary text-light">
-                <div class="card-body text-center">
-                  <div class="h1 mb-3">
-                    <i class="bi bi-person-square"> </i>
-                  </div>
-                  <h3 class="card-title mb-3">Hybrid</h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Adipisci, vitae?
-                  </p>
-                  <a href="#" class="btn btn-dark" role="button"> Read More </a>
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"> </i>
                 </div>
+                <h3 class="card-title mb-3">Hybrid</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Adipisci, vitae?
+                </p>
+                <a href="#" class="btn btn-dark" role="button"> Read More </a>
               </div>
+            </div>
           </div>
           <div class="col-md">
             <div class="card bg-dark text-light">
-                <div class="card-body text-center">
-                  <div class="h1 mb-3">
-                    <i class="bi bi-people"> </i>
-                  </div>
-                  <h3 class="card-title mb-3">In Person</h3>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Adipisci, vitae?
-                  </p>
-                  <a href="#" class="btn btn-primary" role="button"> Read More </a>
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"> </i>
                 </div>
+                <h3 class="card-title mb-3">In Person</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Adipisci, vitae?
+                </p>
+                <a href="#" class="btn btn-primary" role="button">
+                  Read More
+                </a>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn Section -->
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="img/counting_stars.svg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md">
+            <h2>Learn The Fundamentals</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              officia ullam consequatur sequi eius similique.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              expedita nulla eos incidunt.
+            </p>
+
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i>
+              Read More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <h2>Learn The Advanced</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              officia ullam consequatur sequi eius similique.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+              expedita nulla eos incidunt.
+            </p>
+
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i>
+              Read More</a
+            >
+          </div>
+          <div class="col-md">
+            <img src="img/mindfulness.svg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p5">
+      <div class="container">
+        <h2 class="text-center m-4">Frequently Asked Questions</h2>
+
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question1">
+                Where exactly is it located?
+              </button>
+            </h2>
+            <div
+              id="question1"
+              class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. A error voluptas vel maiores dolor perspiciatis?
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question2">
+                How much does it cost to attend?
+              </button>
+            </h2>
+            <div
+              id="question2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fugit, numquam fuga ea corporis magni?
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question3">
+                What do I need to know?
+              </button>
+            </h2>
+            <div
+              id="question3"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quidem deleniti aliquam a eligendi perferendis?
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question4">
+                How do I sign up?
+              </button>
+            </h2>
+            <div
+              id="question4"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quidem deleniti aliquam a eligendi perferendis?
+              </div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question5">
+                Do you help me find a job?
+              </button>
+            </h2>
+            <div
+              id="question5"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae quidem deleniti aliquam a eligendi perferendis?
+              </div>
+            </div>
           </div>
         </div>
       </div>
